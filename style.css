@@ -1,0 +1,93 @@
+body, h3, ul{
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:larger;
+    color: rgb(5, 8, 68);
+    }
+    li{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+    }
+
+    p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+    }
+    body{
+    font-family:Arial, Helvetica, sans-serif;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    background-color: beige;
+    }
+
+    header{
+    display:flex;
+    align-items:center;
+    padding:20px;
+    background-color: rgb(5, 8, 68);
+    color:rgb(253, 254, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    }
+    .logo img{ 
+    max-height:150px;
+    }
+    .college-info{
+    margin-left:20px;
+    
+    }
+    nav{
+    background-color:rgb(5, 8, 68);
+    }
+    .menu{
+    display:flex;
+    list-style:none;
+    padding:10px;
+    }
+    .menu li{
+    margin-right:20px;
+    }
+    .menu a{
+    color:white;
+    text-decoration:none;
+    
+    }
+    img{
+    width:100%;
+    height:auto;
+    }
+    .submenu{
+    display:none;
+    position:absolute;
+    background-color:rgb(5, 8, 68);
+    list-style:none;
+    padding:10px;
+    }
+    .dropdown:hover .submenu{
+    display:block;
+    }
+    .submenu li{
+    margin:5px 0;
+    }
+    li a:hover{
+    background-color:rgb(5, 8, 68);
+    color:rgb(13, 131, 58);
+    }
+    footer{
+    margin-top:auto;
+    background-color:rgb(5, 8, 68);
+    color: white;
+    text-align:center;
+    padding:20px;
+    
+    }
+    .social-media img{
+    height:20px;
+    width: 20px;
+    margin:0 5px;
+    }
